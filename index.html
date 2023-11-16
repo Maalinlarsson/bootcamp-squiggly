@@ -41,7 +41,7 @@
         <div class="text-center">
             <h1 class="text-9xl text-white max-w-xl m-auto"> This is a heading </h1>
             <h2 class="text-black tracking-widest"> Subheading </h2>
-            <a href="#" class="bg-black uppercase text-white border-black p-2 rounded-full tracking-widest px-6"> Book now </a>
+            <a href="#" class="bg-black uppercase text-white p-2 rounded-full tracking-widest px-6"> Book now </a>
         </div>
     </div>
 </header>
@@ -73,43 +73,46 @@
     <div class="max-w-xl m-auto">
         <h2> Duis aute irure </h2>
         <p class="mb-10"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla a autem fugit dolorum sunt unde hic modi dolores similique. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa totam suscipit sunt enim, voluptatem cum porro adipisci reiciendis cumque doloremque asperiores, tempora modi necessitatibus tenetur, distinctio laboriosam provident consequuntur ut? </p>
-        <a href="#" class="orange border border-[#FE953D;] rounded-full uppercase px-6 py-2"> Sign up </a>
+        <a href="#" class="orange rounded-full uppercase px-6 py-2"> Sign up </a>
     </div>
 </section> 
 
 <!------------------- Yellow/orange section ------------------->
 <section class="grid grid-cols-2">
-    <div class="yellow">
-        <img src="/image/bold-6.jpg" alt="">
+    <div class="yellow p-[15%] pb-0">
+        <img src="/image/bold-6.jpg" alt="" class="rounded-t-full">
     </div>
-    <div class="orange max-w-xl m-auto">
-        <h2> Duis aute irure </h2>
-        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam consequatur incidunt culpa excepturi pariatur amet maiores blanditiis vitae consectetur impedit placeat minima, illo mollitia cum sapiente doloremque ipsum dolores accusamus. </p>
-        <a href="#"> Buy now </a>
+    <div class="orange p-[10%] flex items-end">
+        <div>
+            <h2 class="text-white"> Duis aute irure </h2>
+            <p class="mb-10"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam consequatur incidunt culpa excepturi pariatur amet maiores blanditiis vitae consectetur impedit placeat minima, illo mollitia cum sapiente doloremque ipsum dolores accusamus. </p>
+            <a href="#" class="pink rounded-full uppercase px-7 py-2 "> Buy now </a>
+        </div>
     </div>
 </section>
 
 <!------------------- Image grid ------------------->
-<section class="grid grid-cols-4 gap-2 pink pb-8">
-    <div class="col-span-2 rounded-r-full"> <img src="/image/bold-3.jpg" alt=""></div>
-    <div class="rounded-full"> <img src="/image/bold-8.jpg" alt=""></div>
-    <div class="rounded-l-full"> <img src="/image/bold-9.jpg" alt=""></div>
+<section class="grid grid-cols-4 gap-3 pink p-[5%] pl-0 pr-0 items-center flex">
+    <div class="col-span-2 pb-[50%] relative"> <img src="/image/bold-3.jpg" alt="" class="absolute inset-0 w-full h-full rounded-r-full"></div>
+    <div class="relative pb-[100%]"> <img src="/image/bold-8.jpg" alt="" class="rounded-full absolute inset-0 w-full h-full"></div>
+    <div class="relative pb-[100%]"> <img src="/image/bold-9.jpg" alt="" class="rounded-l-full absolute inset-0 w-full h-full"></div>
 </section>
 
 <!------------------- Contact us section ------------------->
-<section class="grid grid-cols-2 orange">
-    <div>
-        <h3> Contact us </h3>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloribus soluta amet dolorem ullam. </p>
+<section class="grid grid-cols-2 orange p-20">
+    <div class=""> 
+        <h2> Contact us </h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloribus soluta amet dolorem ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aperiam doloribus! Obcaecati aspernatur alias itaque laborum fuga ipsam. </p>
     </div>
-    <form">
-        <label for="name"> Name </label>
-        <input id="name" name="name" class="pink" type="text">
+
+    <form class="items-right">
+        <label for="name" class="mb-20"> Name </label>
+        <input id="name" name="name" class="pink rounded-2xl" type="text">
         <label for="email"> Email </label>
-        <input id="email" name="email" type="email" class="pink">
+        <input id="email" name="email" type="email" class="pink rounded-2xl">
         <label for="message"> Message </label>
-        <textarea name="message" id="message" cols="30" rows="10" class="pink"></textarea>
-        <input type="submit" value="SEND">
+        <textarea name="message" id="message" cols="30" rows="10" class="pink rounded-2xl"></textarea>
+        <input type="submit" value="SEND" class="rounded-2xl">
     </form>
 </section>
 
