@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Data -->
+    <title> </title>
+
+    <!-- Google fonts (Titan one and montserrat) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap" rel="stylesheet"> 
+    <!-- font-family: 'Montserrat', sans-serif;, 'Titan One', sans-serif;-->
+
+    <!-- Stylesheets -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header section -->
+<header class="bg-orange-300 flex flex-col min-h-screen bg-center bg-cover" style="background-image: url(/image/banner-orange-new.jpg);">
+    <div class="flex justify-between">
+
+        <!-- Nav header -->
+        <nav>
+            <a href="#"> Logo </a>
+            <a href="#"> Nav 1 </a>
+            <a href="#"> Nav 2 </a>
+            <a href="#"> Nav 3 </a>
+        </nav>
+
+        <div>
+            <a href="#"> Contact us </a>
+        </div>
+
+    </div>
+
+    <!-- The big heading on the header -->
+    <div class="flex justify-center items-center grow">
+        <div class="text-center">
+            <h1 class="text-9xl text-white max-w-xl m-auto"> This is a heading </h1>
+            <h2 class="text-black tracking-widest"> Subheading </h2>
+            <a href="#" class="bg-black uppercase text-white"> Book now </a>
+        </div>
+    </div>
+</header>
+
+<!-- Image section grid -->
+<section class="bg-pink-200">
+    <h2 class="text-center"> Duis aute irure </h2>
+    <div class="grid grid-cols-3 gap-2">
+        <div>
+            <img src="/image/bold-1-cut-wave-header.jpg" alt="">
+            <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ducimus quis a molestias sequi alias rerum saepe aliquam amet iure, tempora porro unde, mollitia explicabo error necessitatibus, nam quidem? Dolore! </p>
+        </div>
+        <div>
+            <img src="https://picsum.photos/id/1020/600/400" alt="">
+            <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ducimus quis a molestias sequi alias rerum saepe aliquam amet iure, tempora porro unde, mollitia explicabo error necessitatibus, nam quidem? Dolore! </p>
+        </div>
+        <div>
+            <img src="https://picsum.photos/id/1003/600/400" alt="">
+            <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ducimus quis a molestias sequi alias rerum saepe aliquam amet iure, tempora porro unde, mollitia explicabo error necessitatibus, nam quidem? Dolore! </p>
+        </div>
+    </div>
+</section>
+
+<!-- Second part of pink section -->
+<section class="grid grid-cols-2 bg-pink-200">
+    <div>
+       <img src="https://picsum.photos/id/1025/600/400" alt="">
+    </div>
+    <div>
+        <h2 class=""> Duis aute irure </h2>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla a autem fugit dolorum sunt unde hic modi dolores similique. </p>
+        <a href="#"> Sign up </a>
+    </div>
+</section> 
+
+<!-- Yellow/orange section -->
+<section class="grid grid-cols-2">
+    <div class="bg-yellow-200">
+        <img src="https://picsum.photos/id/1020/600/400" alt="">
+    </div>
+    <div class="bg-orange-300">
+        <h2> Duis aute irure </h2>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam consequatur incidunt culpa excepturi pariatur amet maiores blanditiis vitae consectetur impedit placeat minima, illo mollitia cum sapiente doloremque ipsum dolores accusamus. </p>
+        <a href="#"> Buy now </a>
+    </div>
+</section>
+
+<!-- Image grid -->
+<section class="grid grid-cols-4 gap-2 bg-pink-200">
+    <div class="col-span-2"> <img src="https://picsum.photos/id/1025/600/400" alt=""></div>
+    <div> <img src="https://picsum.photos/id/237/600/400" alt=""></div>
+    <div> <img src="https://picsum.photos/id/1020/600/400" alt=""></div>
+</section>
+
+<!-- Contact us section -->
+<section class="grid grid-cols-2 bg-orange-300">
+    <div>
+        <h3> Contact us </h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloribus soluta amet dolorem ullam. </p>
+    </div>
+    <form">
+        <label for="name"> Name </label>
+        <input id="name" name="name" class="bg-pink-200" type="text">
+        <label for="email"> Email </label>
+        <input id="email" name="email" type="email" class="bg-pink-200">
+        <label for="message"> Message </label>
+        <textarea name="message" id="message" cols="30" rows="10" class="bg-pink-200"></textarea>
+        <input type="submit" value="SEND">
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="grid grid-cols-5 bg-pink-200">
+    <div>
+        <h4> Lorem ipsum </h4>
+        <nav>
+            <a href=""> Link 1 </a>
+            <a href=""> Link 1 </a>
+            <a href=""> Link 1 </a>
+            <a href=""> Link 1 </a>
+       </nav>
+    </div>
+    <div>
+        <h4> Lorem ipsum </h4>
+        <nav>
+            <a href=""> Link 1 </a>
+            <a href=""> Link 1 </a>
+            <a href=""> Link 1 </a>
+            <a href=""> Link 1 </a>
+       </nav>
+    </div>
+    <div>
+        <h4> Lorem ipsum </h4>
+        <nav>
+            <a href=""> Link 1 </a>
+            <a href=""> Link 1 </a>
+            <a href=""> Link 1 </a>
+            <a href=""> Link 1 </a>
+       </nav>
+    </div>
+    <form class="col-span-2">
+        <label for="name"> Name </label>
+        <input id="name" name="name" type="text"  class="bg-orange-300">
+        <input type="submit" value="SUBSCRIBE"  class="bg-black text-white">
+    </form>
+</footer>
+
+</body>
+</html>
