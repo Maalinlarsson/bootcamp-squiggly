@@ -1,6 +1,7 @@
-input, textarea {
+body input, body textarea {
     display: block;
     width: 100%;
+    padding: 3px 1.5rem;
 }
 
 

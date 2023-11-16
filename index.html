@@ -41,9 +41,15 @@
         <div class="text-center">
             <h1 class="text-9xl text-white max-w-xl m-auto"> This is a heading </h1>
             <h2 class="text-black tracking-widest"> Subheading </h2>
-            <a href="#" class="bg-black uppercase text-white p-2 rounded-full tracking-widest px-6"> Book now </a>
+            <a href="#" class="bg-black uppercase text-white p-2 rounded-full tracking-widest px-7"> Book now </a>
         </div>
     </div>
+            <svg viewBox="0 0 2192 111" fill="none" xmlns="http://www.w3.org/2000/svg" class="rotate-180 w-full relative -bottom-1">
+                <path d="M2192 31.6148C2100.67 31.6148 2100.67 111 2009.31 111C1917.96 111 1917.98 31.6148 1826.63 31.6148C1735.27 31.6148 1735.29 111 1643.96 111C1552.63 111 1552.63 31.6148 1461.29 31.6148C1369.96 31.6148 1369.96 111 1278.63 111C1187.29 111 1187.29 31.6148 1095.96 31.6148C1004.63 31.6148 1004.63 111 913.293 111C821.959 111 821.959 31.6148 730.626 31.6148C639.293 31.6148 639.293 111 547.959 111C456.626 111 456.626 31.6148 365.293 31.6148C273.959 31.6148 273.959 111 182.646 111C91.3333 111 91.3333 31.6148 0 31.6148V0H1096H2192V31.6148Z" fill="#EEC1DC"/>
+                </svg>
+                
+            
+        
 </header>
 
 <!------------------- Image section grid ------------------->
@@ -73,7 +79,7 @@
     <div class="max-w-xl m-auto">
         <h2> Duis aute irure </h2>
         <p class="mb-10"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla a autem fugit dolorum sunt unde hic modi dolores similique. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa totam suscipit sunt enim, voluptatem cum porro adipisci reiciendis cumque doloremque asperiores, tempora modi necessitatibus tenetur, distinctio laboriosam provident consequuntur ut? </p>
-        <a href="#" class="orange rounded-full uppercase px-6 py-2"> Sign up </a>
+        <a href="#" class="orange rounded-full uppercase px-7 py-2"> Sign up </a>
     </div>
 </section> 
 
@@ -105,19 +111,21 @@
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloribus soluta amet dolorem ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aperiam doloribus! Obcaecati aspernatur alias itaque laborum fuga ipsam. </p>
     </div>
 
-    <form class="items-right">
-        <label for="name"> Name </label>
-        <input id="name" name="name" class="pink rounded-2xl" type="text">
-        <label for="email"> Email </label>
-        <input id="email" name="email" type="email" class="pink rounded-2xl">
-        <label for="message"> Message </label>
-        <textarea name="message" id="message" cols="30" rows="10" class="pink rounded-2xl"></textarea>
-        <input type="submit" value="SEND" class="rounded-2xl bg-black text-white">
+    <form class="items-right pl-[10%]">
+        <div class="p-5">
+            <label for="name"> Name </label>
+            <input id="name" name="name" class="pink m-3 ml-0 rounded-2xl" type="text">
+            <label for="email"> Email </label>
+            <input id="email" name="email" type="email" class="pink m-3 ml-0 rounded-2xl">
+            <label for="message"> Message </label>
+            <textarea name="message" id="message" cols="30" rows="10" class="pink m-3 ml-0 rounded-2xl"></textarea>
+            <input type="submit" value="SEND" class="rounded-2xl bg-black text-white w-min ml-auto">
+        </div>
     </form>
 </section>
 
 <!-------------------- Footer ------------------->
-<footer class="grid grid-cols-5 pink uppercase p-[5%]">
+<footer class="flex justify-between pink uppercase p-[5%]">
     <div>
         <h4 class="mb-2"> Lorem ipsum </h4>
         <nav>
@@ -146,9 +154,9 @@
        </nav>
     </div>
     <form class="col-span-2">
-        <label for="name"> Name </label>
-        <input id="name" name="name" type="text"  class="orange mt-5 rounded-full">
-        <input type="submit" value="SUBSCRIBE"  class="bg-black rounded-full mt-5 text-white">
+        <label for="name" class="tracking-widest"> Subscribe to our newsletter </label>
+        <input id="name" name="name" type="text"  class="orange mt-3 rounded-full">
+        <input type="submit" value="SUBSCRIBE"  class="bg-black rounded-full mt-5 w-min ml-auto text-white">
     </form>
 </footer>
 
