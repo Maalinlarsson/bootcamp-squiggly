@@ -2,17 +2,40 @@ input, textarea {
     display: block;
 }
 
-footer a {
-    display: block;
+
+/*------------------- Typography styles ------------------- */
+h1 {
+    font-family: 'Titan one',sans-serif;
 }
 
-h2 {
+
+body h2 {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 2.5rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.3em;
 }
 
-h1 {
-    font-family: 'Titan one',sans-serif;
+/*------------------- Header and footer styles ------------------- */
+header a {
+    display: inline-block;
+}
+
+footer a {
+    display: block;
+}
+
+/*-------------------  Color utility classes ------------------- */
+.pink {
+    background-color: #EEC1DC;
+}
+
+.orange {
+    background-color: #FE953D;
+}
+
+.yellow {
+    background-color: #FEC001;
 }
