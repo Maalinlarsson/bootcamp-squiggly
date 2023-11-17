@@ -31,7 +31,7 @@
             <a href="#" class="px-4 py-2"> Nav 3 </a>
         </nav>
 
-        <div>
+        <div class="shrink-0">
             <a href="#" class="border rounded-full px-3 py-2"> Contact us </a>
         </div>
     </div>
@@ -39,8 +39,8 @@
     <!-- The big heading on the header -->
     <div class="flex justify-center items-center grow">
         <div class="text-center">
-            <h1 class="text-9xl text-white max-w-xl m-auto mb-8"> This is a heading </h1>
-            <h2 class="text-black tracking-widest"> Subheading </h2>
+            <h1 class="text-7xl sm:text-8xl md:text-9xl text-white max-w-xl m-auto mb-8"> This is a heading </h1>
+            <h2 class="text-8lg md:text-4xl text-black tracking-widest uppercase"> Subheading </h2>
             <a href="#" class="bg-black uppercase text-white p-2 rounded-full tracking-widest px-7"> Book now </a>
         </div>
     </div>
@@ -53,43 +53,51 @@
 
 <!------------------- Image section grid ------------------->
 <section class="pink p-20">
-    <h2 class="text-center tracking-widest"> Duis aute irure </h2>
-    <div class="grid grid-cols-3 gap-3">
+    <h2 class="text-center tracking-widest text-2xl md:text-4xl uppercase"> Duis aute irure </h2>
+    <div class="grid md:grid-cols-3 gap-9 md:gap-3">
         <div>
-            <img src="/image/bold-2.jpg" alt="" class="rounded-t-[14vw] rounded-b-[2vw]">
+            <img src="/image/bold-2.jpg" alt="" class="rounded-t-[40vw] rounded-b-[4vw] md:rounded-t-[14vw] rounded-b-[2vw]">
             <p class="text-center mt-8"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ducimus quis a molestias sequi alias rerum saepe aliquam amet iure, tempora porro unde, mollitia explicabo error necessitatibus, nam quidem? Dolore! </p>
         </div>
         <div>
-            <img src="/image/bold-3.jpg" alt="" class="rounded-t-[14vw] rounded-b-[2vw]">
+            <img src="/image/bold-3.jpg" alt="" class="rounded-t-[40vw] rounded-b-[4vw] rounded-t-[14vw] rounded-b-[2vw]">
             <p class="text-center mt-8"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ducimus quis a molestias sequi alias rerum saepe aliquam amet iure, tempora porro unde, mollitia explicabo error necessitatibus, nam quidem? Dolore! </p>
         </div>
         <div>
-            <img src="image/bold-4.jpg" alt="" class="rounded-t-[14vw] rounded-b-[2vw]">
+            <img src="image/bold-4.jpg" alt="" class="rounded-t-[40vw] rounded-b-[4vw] rounded-t-[14vw] rounded-b-[2vw]">
             <p class="text-center mt-8"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ducimus quis a molestias sequi alias rerum saepe aliquam amet iure, tempora porro unde, mollitia explicabo error necessitatibus, nam quidem? Dolore! </p>
         </div>
     </div>
 </section>
 
 <!------------------- Second part of pink section ------------------->
-<section class="grid grid-cols-2 pink">
-    <div class="pb-8">
-       <img src="/image/bold-5.jpg" alt="" class="rounded-r-full">
+<section class="relative pink">
+    <div class="grid grid-cols-3">
+
+        <div class="pb-8 col-span-2">
+        <img src="/image/bold-5.jpg" alt="" class="rounded-r-full opacity-50 md:opacity-1">
+        </div>
+
     </div>
-    <div class="max-w-xl m-auto">
-        <h2> Duis aute irure </h2>
-        <p class="mb-10"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla a autem fugit dolorum sunt unde hic modi dolores similique. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa totam suscipit sunt enim, voluptatem cum porro adipisci reiciendis cumque doloremque asperiores, tempora modi necessitatibus tenetur, distinctio laboriosam provident consequuntur ut? </p>
-        <a href="#" class="orange rounded-full uppercase px-7 py-2"> Sign up </a>
+    <div class="md:grid-cols-2 grid absolute top-0 h-full w-full">    
+        <div class="pb-8 hidden md:block">
+        </div>
+        <div class="max-w-md md:max-w-xl m-auto">
+            <h2 class="text-2xl md:text-4xl uppercase"> Duis aute irure </h2>
+            <p class="mb-10"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla a autem fugit dolorum sunt unde hic modi dolores similique. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa totam suscipit sunt enim, voluptatem cum porro adipisci reiciendis cumque doloremque asperiores, tempora modi necessitatibus tenetur, distinctio laboriosam provident consequuntur ut? </p>
+            <a href="#" class="orange rounded-full uppercase px-7 py-2"> Sign up </a>
+        </div>
     </div>
 </section> 
 
 <!------------------- Yellow/orange section ------------------->
 <section class="grid grid-cols-2">
-    <div class="yellow p-[15%] pb-0">
+    <div class="yellow p-[15%] pb-0 flex items-end">
         <img src="/image/bold-6.jpg" alt="" class="rounded-t-full">
     </div>
     <div class="orange p-[10%] flex items-end">
         <div>
-            <h2 class="text-white"> Duis aute irure </h2>
+            <h2 class="text-white text-2xl md:text-4xl uppercase"> Duis aute irure </h2>
             <p class="mb-10"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam consequatur incidunt culpa excepturi pariatur amet maiores blanditiis vitae consectetur impedit placeat minima, illo mollitia cum sapiente doloremque ipsum dolores accusamus. </p>
             <a href="#" class="pink rounded-full uppercase px-7 py-2"> Buy now </a>
         </div>
@@ -98,8 +106,8 @@
 
 <!------------------- Image grid ------------------->
 <section class="grid grid-cols-4 gap-3 pink p-[5%] pl-0 pr-0 items-center flex">
-    <div class="col-span-2 pb-[50%] relative"> 
-        <img src="/image/bold-3.jpg" alt="" class="absolute inset-0 w-full h-full rounded-r-full">
+    <div class="col-span-2 bg-[url('/image/bold-7.jpg')] w-full h-full rounded-r-full bg-cover"> 
+        <!-- <img src="/image/bold-3.jpg" alt="" class="absolute inset-0 w-full h-full rounded-r-full"> -->
     </div>
     <div class="relative pb-[100%]"> 
         <img src="/image/bold-8.jpg" alt="" class="rounded-full absolute inset-0 w-full h-full">
@@ -117,7 +125,7 @@
 
 <section class="grid grid-cols-2 orange p-20">
     <div> 
-        <h2> Contact us </h2>
+        <h2 class="text-2xl md:text-4xl uppercase"> Contact us </h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloribus soluta amet dolorem ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aperiam doloribus! Obcaecati aspernatur alias itaque laborum fuga ipsam. </p>
     </div>
 
@@ -143,28 +151,28 @@
     <div>
         <h4 class="mb-2"> Lorem ipsum </h4>
         <nav>
-            <a href="" class="m-1 p-1"> Link 1 </a>
-            <a href="" class="m-1 p-1"> Link 1 </a>
-            <a href="" class="m-1 p-1"> Link 1 </a>
-            <a href="" class="m-1 p-1"> Link 1 </a>
+            <a href="" class="mb-2 p-1"> Link 1 </a>
+            <a href="" class="mb-2 p-1"> Link 1 </a>
+            <a href="" class="mb-2 p-1"> Link 1 </a>
+            <a href="" class="p-1"> Link 1 </a>
        </nav>
     </div>
     <div>
         <h4 class="mb-2"> Lorem ipsum </h4>
         <nav>
-            <a href="" class="m-1 p-1"> Link 1 </a>
-            <a href="" class="m-1 p-1"> Link 1 </a>
-            <a href="" class="m-1 p-1"> Link 1 </a>
-            <a href="" class="m-1 p-1"> Link 1 </a>
+            <a href="" class="mb-2 p-1"> Link 1 </a>
+            <a href="" class="mb-2 p-1"> Link 1 </a>
+            <a href="" class="mb-2 p-1"> Link 1 </a>
+            <a href="" class="p-1"> Link 1 </a>
        </nav>
     </div>
     <div>
         <h4 class="mb-2"> Lorem ipsum </h4>
         <nav>
-            <a href="" class="m-1 p-1"> Link 1 </a>
-            <a href="" class="m-1 p-1"> Link 1 </a>
-            <a href="" class="m-1 p-1"> Link 1 </a>
-            <a href="" class="m-1 p-1"> Link 1 </a>
+            <a href="" class="mb-2 p-1"> Link 1 </a>
+            <a href="" class="mb-2 p-1"> Link 1 </a>
+            <a href="" class="mb-2 p-1"> Link 1 </a>
+            <a href="" class="p-1"> Link 1 </a>
        </nav>
     </div>
     <form class="col-span-2">
